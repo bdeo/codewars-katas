@@ -1,0 +1,26 @@
+{
+  "name": "codewars-katas",
+  "version": "1.0.0",
+  "description": "Solutions to Codewars Katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdeo/codewars-katas.git"
+  },
+  "keywords": [
+    "codewars",
+    "kata"
+  ],
+  "author": "Brandon Deo (bdeo@udel.edu)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/bdeo/codewars-katas/issues"
+  },
+  "homepage": "https://github.com/bdeo/codewars-katas#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
