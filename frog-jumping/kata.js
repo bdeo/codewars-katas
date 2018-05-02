@@ -26,7 +26,7 @@ const escape = (highway, visited = {}, position = 0, total = 1) => {
     const newPosition = position + curr;
 
     if (newPosition >= highway.length) return total;               // escaped
-    if (newPosition < 0) return -1;                                // cant escape
+    if (newPosition < 0) return total;                             // escaped
     if (visited[newPosition]) return -1;                           // circular
     if (Object.keys(visited).length === highway.length) return -1; // trapped
 
